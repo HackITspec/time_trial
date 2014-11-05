@@ -171,7 +171,7 @@ class FeasibilityTab(QtGui.QWidget):
 #        self.data_source_model.rowsInserted.connect(self.plotter.update_plot)
 
     def reset_plot(self):
-        self.shorter_trial.setText("[seect on experiment tab]")
+        self.shorter_trial.setText("[select on experiment tab]")
         self.shorter_trial_color.setText("")
         self.shorter_trial_bins.setText("")
 

@@ -32,7 +32,7 @@ On Ubuntu, install all packages via:
 
 
 ## Compiling the source
-The racer C++ code is built using the SCons build system. When all required packages are installed, it should be sufficient to call `scons` in the `racer` folder to build all components. The binaries are created in the the `racer/bin/` folder. There is no need to direclty execute the binary. The racer driver will rake care of that automatically via the `rqworker` (see below),
+The racer C++ code is built using the SCons build system. When all required packages are installed, it should be sufficient to call `scons` in the `racer` folder to build all components. The binaries are created in the the `racer/bin/` folder. There is no need to direclty execute the binary. The racer driver will take care of that automatically via the `rqworker` (see below).
 
 
 # Executing Trials
